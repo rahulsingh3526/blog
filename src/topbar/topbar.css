@@ -13,8 +13,48 @@
 
     flex:3;
     background-color:green;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.topIcon{
+     
+    color: yellow;
+    cursor: pointer;
+
+}
+
+.topImg{
+    width: 40px;
+    height:30px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .topCenter{
     flex:6;
+}
+
+.topList{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.topListItems{
+
+     margin:10px;
+     font-size:15px;
+     cursor:pointer;
+    
+}
+
+.topSearchIcon{
+
+    font-size:10px;
+    color:blue;
+    cursor:pointer;
+    margin-left:30px;
 }
